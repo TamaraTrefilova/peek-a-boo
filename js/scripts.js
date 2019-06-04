@@ -24,4 +24,9 @@ $(function() {
     $("body").addClass("black-background");
     $("body").addClass("text-color");
   });
+  
+  $("button#light").click(function() {
+    $("body").removeClass();
+  });
+
 });
