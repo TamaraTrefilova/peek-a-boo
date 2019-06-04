@@ -27,3 +27,14 @@
   background-color: black;
   color: white;
 }
+
+.text-box{
+  border: 4px solid blue;
+  background-color: yellow;
+
+}
+
+  #text-light {
+  cursor: pointer;
+  color: #0088cc;
+}
