@@ -2,11 +2,23 @@
   display: none;
 }
 
+/* #initially-faddedIn{
+    display: none;
+} */
 .clickable {
   cursor: pointer;
   color: #0088cc;
 }
 
 .clickable:hover {
+  text-decoration: underline;
+}
+
+.new_clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.new_clickable:hover {
   text-decoration: underline;
 }
