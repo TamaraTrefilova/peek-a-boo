@@ -18,4 +18,10 @@ $(function() {
   // $(".new_clickable").click(function() {
   //   $("#initially-faddedIn").fadeIn();
   // });
+
+  $("button#black").click(function() {
+    $("body").removeClass();
+    $("body").addClass("black-background");
+    $("body").addClass("text-color");
+  });
 });
